@@ -1,45 +1,10 @@
 <a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Hello Rails Backend</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Hello Rails Backend\] ](#-hello-rails-backend-)
+- [📖 \[Hello React Frontend\] ](#-hello-react-frontend-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -58,20 +23,29 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Rails Backend] <a name="about-project"></a>
+# 📖 [Hello React Frontend] <a name="about-project"></a>
 
-> This is a simple hello rails back-end part of the random greetings app front-end is built in rails.
+**hello-react-front-end** is a web application that displays a random greeting message on screen, using **React** as front-end and **Rails** as back-end.
+
+## Back-end Repo
+
+[hello-rails-back-end](https://github.com/vanelnw/hello-rails-back-end)
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
+  <ul> 
+    <li><a href="https://github.com/microverseinc/linters-config/tree/master/ror">Linters</a></li>
+    <li><a href="https://react.dev/">React.js</a></li>   
+  </ul>
+</details>
+<details>
+  <summary>Server</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+    <li><a href="https://rubyonrails.org/">ROR</a></li>
   </ul>
 </details>
 
@@ -86,19 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[Implement Add greeting]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://budget-app-93r3.onrender.com/)
+- Displays a random greeting message
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,56 +68,45 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
 In order to run this project you need:
 
-```sh
- gem install rails
-```
+- [Ruby on Rails](https://rubyonrails.org/) installed and running. To get more information, read the [installation guide](https://guides.rubyonrails.org/).
+
+- [PostgreSQL](https://www.postgresql.org/) installed and running
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```sh
-  cd my-folder
-  git clone  https://github.com/momotsow/rails-budget-app.git
 ```
-
--
+  git clone https://github.com/AbeeraTahir/hello-rails-react.git
+```
 
 ### Install
 
-Install this project with:
+Install the project dependencies with:
 
-```sh
-  cd my-folder
-  bundle install
+```
+  - bundle install
+  - npm install
 ```
 
--
-
-### Usage
+### Usage <a name="usage"></a>
 
 To run the project, execute the following command:
 
-```sh
-  rails server
 ```
-
--
+  rails s
+```
 
 ### Run tests
 
 To run tests, run the following command:
 
-```sh
-  rspec
+```
+rspec
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
