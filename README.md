@@ -1,30 +1,26 @@
-<a name="readme-top"></a>
-<!-- TABLE OF CONTENTS -->
+<a name="readme-top"></a></a>
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Hello React Frontend\] ](#-hello-react-frontend-)
+- [📖 Hello Rails React ](#-hello-rails-react-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
-    - [Usage](#usage)
+    - [Usage ](#usage-)
     - [Run tests](#run-tests)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [🙏 Acknowledgements](#acknowledgements)
   - [📝 License ](#-license-)
 
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 [Hello React Frontend] <a name="about-project"></a>
-
+# hello-react-front-end <a name="hello-react-front-end"></a>
 **hello-react-front-end** is a web application that displays a random greeting message on screen, using **React** as front-end and **Rails** as back-end.
 
 ## Back-end Repo
@@ -81,39 +77,25 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  git clone https://github.com/AbeeraTahir/hello-rails-react.git
+  git clone https://github.com/momotsow/hello-react-frontend.git
 ```
+
+To get a local copy up and running, follow these steps.
 
 ### Install
 
-Install the project dependencies with:
+Install this project with:
 
 ```
-  - bundle install
-  - npm install
+npm install
 ```
 
-### Usage <a name="usage"></a>
-
-To run the project, execute the following command:
-
-```
-  rails s
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```
-rspec
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Khomotso Mkansi**
 
@@ -125,6 +107,10 @@ rspec
 
 <!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- Improve UI
+- Implement Add greeting
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -141,9 +127,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project please give it a star 😁🌟✨
+If you like this project and want to support me make cooler projects Give this project a Star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,9 +135,7 @@ If you like this project please give it a star 😁🌟✨
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-Microverse.
+I would like to thank Microverse community.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,8 +143,6 @@ Microverse.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
